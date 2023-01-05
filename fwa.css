@@ -1,0 +1,78 @@
+/* --- Awwwards Ribbons --- */
+
+/* Base */
+
+#fwa {
+	position:fixed;
+	z-index:9999;
+}
+
+/* Left Top */
+
+#fwa.left.top {
+	left:0px;
+	top:0px;
+}
+
+/* Right Top */
+
+#fwa.right.top {
+	right:0px;
+	top:0px;
+}
+
+/* Left Bottom */
+
+#fwa.left.bottom {
+	left:0px;
+	bottom:0px;
+}
+
+/* Right Bottom */
+
+#fwa.right.bottom {
+	right:0px;
+	bottom:0px;
+}
+
+/* Link */
+
+#fwa a {
+	display:block;
+	width:100px;
+	height:100px;
+	text-indent:-8000px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+
+#fwa.left.top a {
+	background-image:url('ribbons/DayTopLeft.png');
+}
+#fwa.right.top a {
+	background-image:url('ribbons/DayTopRight.png');
+}
+
+#fwa.left.bottom a {
+	background-image:url('ribbons/DayBotLeft.png');
+}
+#fwa.right.bottom a {
+	background-image:url('ribbons/DayBotRight.png');
+}
+
+
+/* MEDIA QUERIES */
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+
+	/* hidden */
+	#fwa {
+		display: none;
+	}
+
+}
+
+}
